@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./normalize.css" />
+  </head>
+  <body>
+    <div class="container">
+
+
+      <div class="main-flex">
+        <div class="main-image">
+          <img src="./resume_pic.jpg" alt="Sumit Kumar" />
+        </div>
+        <div class="intro">
+          <h1>Sumit Kumar Brahmbhatt</h1>
+          <a href="./Sumit_Resume007.pdf" download="Sumit_Resume007">
+            <button id="resumeBtn">Resume</button></a
+          >
+          <button id="contactBtn">Contact Me</button>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <section>
+        <div class="about" id="about">
+          <h1>About <span>me</span></h1>
+          <br />
+          <pre>
+      
+      <strong>Age</strong>                   :  19
+      <strong>Email</strong>                :  sbrahmbhatt9@myseneca.ca
+      <strong>Language</strong>       :  English, Hindi,Punjabi and Gujrati
+      <strong>Class Section</strong> :  ZDD
+      <strong>Student Id</strong>       :  170337216
+      <strong>Instructor</strong>        : Arezoo Tony
+    </pre>
+
+          <p>
+            Hi, My name is Sumit Kumar Brahmbhatt. I am 19 years old I am currenty styding Computer
+            Programming in seneca college.I am not so good at coding but I want to be an hacker,
+            so therefore I like to persue in this computer line so that I can develop my skill as well 
+            as I like to learn new things and this seems to be a good opportunity for me to be in this program.
+            and I also love web developing.
+          </p>
+          <br />
+          <br />
+          <h3>Honest Statement</h3>
+          <br />
+          <p>
+            I declare that this assessment is wholly my own work in accordance
+            with Seneca Academic Policy. No part of this has been copied
+            manually or electronically from any other source (including web
+            sites) except for the information supplied by the WEB222 instructors
+            and / or made available in this assessment for my use. I also
+            declare that no part of this assessment has been distributed to
+            other students.
+            <br />
+            <br />
+            <strong>Date:</strong> 14-August-2022
+          </p>
+          <br />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="education" id="education">
+        <h1>My Educational <br /><span>Qualifications</span></h1>
+        <p>
+          My home country is India.I competed my 12th class from a government
+          school and after a year I came to canada became I want to continue 
+          my studies abroad,so I took admition in one of the colleges and became
+          a student of Seneca College, Toronto. Here, I am pursuing a
+          undergraduate diploma in Computer Programming(CPP).
+        </p>
+        <div class="edu">
+          <div class="education-div flex div-1">
+            <h3>CPP Diploma</h3>
+            <h4>Seneca College (2022-2023)</h4>
+            Toronto, Canada
+            <br />
+            <p>GPA in first semester: 3.3</p>
+          </div>
+          <div class="education-div flex div-2">
+            <h3>12th Standard</h3>
+            <h4>GMSSS School (2020-2021)</h4>
+                Chandigarh, India
+            <br />
+            <p>Percentage: 80%</p>
+          </div>
+        </div>
+      </section>
+      <br /><br />
+
+      <br /><br /><br />
+      <hr />
+      <section class="contact" id="contact">
+        <h1>Contact <span>Me!</span></h1>
+        <div class="box flex">
+          <form id="form">
+            <label for="name">Name:</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="John Doe"
+              required
+            /><br /><br />
+            <label for="email">E-mail:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="john@example.com"
+              required
+            /><br /><br />
+            <label for="address">Address:</label><br />
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="Street Address"
+              required
+            /><br /><br />
+            <label for="city">City:</label><br />
+            <input list="cities" id="city" placeholder="ABC" required />
+            <datalist id="cities">
+              <option value="London"></option>
+              <option value="Halifax"></option>
+              <option value="Laval"></option>
+              <option value="Surrey"></option>
+              <option value="Quebec City"></option>
+              <option value="Hamilton"></option>
+              <option value="Vancouver"></option>
+              <option value="Winnipeg"></option>
+              <option value="Mississauga"></option>
+              <option value="Edmonton"></option>
+              <option value="Ottawa"></option>
+              <option value="Calgary"></option>
+              <option value="Montreal"></option>
+              <option value="Toronto"></option></datalist
+            ><br /><br />
+            <label for="province">province:</label><br />
+            <input list="provinces" id="pro_vince" placeholder="ABCD" required />
+            <br>
+
+            <label for="postal">Postal Code:</label><br />
+            <input
+              type="text"
+              id="postal"
+              name="postal"
+              placeholder="A1B 2C3"
+              pattern="[A-Za-z]\d[A-Za-z] ?\d[A-Za-z]\d"
+              title="Please enter valid Canadian Postal Code"
+              required
+            /><br /><br />
+            <h2>What's your <span>Query!</span></h2>
+            <div class="query">
+              <input type="radio" id="joboffer" name="query" value="joboffer" />
+              <label for="joboffer">joboffer</label><br />
+              <input type="radio" id="School" name="query" value="School" />
+              <label for="School">School</label><br />
+              <input type="radio" id="Other" name="query" value="Other" />
+              <label for="Other">Other</label><br />
+            </div>
+            <div class="Topic">
+              <label for="Other">Reson for Contacting:</label><br />
+              <input
+                type="text"
+                id="Other"
+                name="Other"
+                placeholder="Same reason for Contacting:"
+              /><br /><br />
+            </div>
+            <label for="message">Please enter your query below:</label><br />
+            <textarea name="message" id="message" rows="6" cols="30"> </textarea
+            ><br /><br />
+            <label for="homepage">Drop your LinkedIn:</label><br /><br />
+            <input type="url" id="homepage" name="homepage" />
+            <input type="submit" id="submit" value="Send" />
+          </form>
+        </div>
+      </section>
+    </div>
+</div>
+    <script src="./info.js"></script>
+  </body>
+</html>
